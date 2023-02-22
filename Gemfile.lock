@@ -1,3 +1,12 @@
+GIT
+  remote: https://github.com/andyw8/debug.git
+  revision: 2d6400283962c07a888ce24e07461c78ca27f333
+  branch: andyw8/fix-process-daemon-patch
+  specs:
+    debug (1.7.1)
+      irb (>= 1.5.0)
+      reline (>= 0.3.1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -84,9 +93,6 @@ GEM
     concurrent-ruby (1.2.0)
     crass (1.0.6)
     date (3.3.3)
-    debug (1.7.1)
-      irb (>= 1.5.0)
-      reline (>= 0.3.1)
     erubi (1.12.0)
     globalid (1.1.0)
       activesupport (>= 5.0)
@@ -232,7 +238,7 @@ PLATFORMS
 DEPENDENCIES
   bootsnap
   capybara
-  debug
+  debug!
   importmap-rails
   jbuilder
   puma (~> 5.0)
